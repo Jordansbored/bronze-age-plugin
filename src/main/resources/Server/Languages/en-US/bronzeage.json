@@ -1,0 +1,15 @@
+{
+  "server.Ore_Tin_Stone.name": "Tin Ore",
+  "server.Ore_Tin.name": "Raw Tin",
+  "server.Ore_Tin.description": "A silvery raw metal. Smelt it to create tin ingots.",
+  "server.Ingredient_Bar_Tin.name": "Tin Ingot",
+  "server.Ingredient_Bar_Tin.description": "A refined tin bar. Combine with copper in an Alloy Furnace to create bronze.",
+  "server.Ingredient_Bar_Bronze.name": "Bronze Ingot",
+  "server.Ingredient_Bar_Bronze.description": "A strong alloy of copper and tin. Used to craft bronze tools.",
+  "server.Bench_AlloyFurnace.name": "Alloy Furnace",
+  "server.Bench_AlloyFurnace.description": "A heavy industrial furnace for forging metal alloys.",
+  "server.Tool_Pickaxe_Bronze.name": "Bronze Pickaxe",
+  "server.Tool_Axe_Bronze.name": "Bronze Hatchet",
+  "server.Tool_Shovel_Bronze.name": "Bronze Shovel",
+  "server.Tool_Hoe_Bronze.name": "Bronze Hoe"
+}

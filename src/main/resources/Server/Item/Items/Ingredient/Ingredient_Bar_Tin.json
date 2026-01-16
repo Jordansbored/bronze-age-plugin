@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "server.Ingredient_Bar_Tin.name",
+    "Description": "server.Ingredient_Bar_Tin.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Bar_Copper.png",
+  "Categories": [
+    "Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ore_Tin",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 10
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Materials/Ingot_Textures/Copper.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Translation": [
+      0,
+      -3
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Tin"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 50,
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true
+}

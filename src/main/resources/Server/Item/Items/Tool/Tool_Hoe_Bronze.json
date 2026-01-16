@@ -1,0 +1,36 @@
+{
+  "TranslationProperties": {
+    "Name": "server.Tool_Hoe_Bronze.name"
+  },
+  "Parent": "Tool_Hoe_Copper",
+  "Icon": "Icons/ItemsGenerated/Tool_Hoe_Copper.png",
+  "Quality": "Common",
+  "ItemLevel": 15,
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 2
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ]
+      }
+    ]
+  },
+  "MaxDurability": 250
+}

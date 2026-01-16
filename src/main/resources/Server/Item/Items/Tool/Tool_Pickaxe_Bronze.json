@@ -1,0 +1,75 @@
+{
+  "TranslationProperties": {
+    "Name": "server.Tool_Pickaxe_Bronze.name"
+  },
+  "Parent": "Tool_Pickaxe_Copper",
+  "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Copper.png",
+  "Quality": "Common",
+  "ItemLevel": 15,
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 3
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ]
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.6,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 0.45,
+        "GatherType": "Rocks"
+      },
+      {
+        "Power": 0.6,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.15,
+        "GatherType": "VolcanicRocks"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.2
+      }
+    ]
+  },
+  "MaxDurability": 250
+}
