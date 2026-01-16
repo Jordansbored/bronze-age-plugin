@@ -3,7 +3,7 @@
     "Name": "server.Tool_Axe_Bronze.name"
   },
   "Parent": "Tool_Hatchet_Copper",
-  "Icon": "Icons/ItemsGenerated/Tool_Hatchet_Copper.png",
+  "Icon": "Icons/ItemsGenerated/Tool_Hatchet_Bronze.png",
   "Quality": "Common",
   "ItemLevel": 15,
   "Recipe": {

@@ -3,7 +3,7 @@
     "Name": "server.Tool_Pickaxe_Bronze.name"
   },
   "Parent": "Tool_Pickaxe_Copper",
-  "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Copper.png",
+  "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Bronze.png",
   "Quality": "Common",
   "ItemLevel": 15,
   "Recipe": {

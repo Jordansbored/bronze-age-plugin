@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "server.Ore_Tin_Stone.name"
   },
-  "Icon": "Icons/ItemsGenerated/Ore_Copper_Stone.png",
+  "Icon": "Icons/ItemsGenerated/Ore_Tin_Stone.png",
   "Categories": [
     "Blocks.Ores"
   ],
@@ -12,7 +12,7 @@
     "CustomModel": "Resources/Ores/Ore_Large.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Ores/Ore_Textures/Copper.png",
+        "Texture": "Resources/Ores/Ore_Textures/Tin.png",
         "Weight": 1
       }
     ],

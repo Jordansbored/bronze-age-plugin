@@ -3,7 +3,7 @@
     "Name": "server.Tool_Hoe_Bronze.name"
   },
   "Parent": "Tool_Hoe_Copper",
-  "Icon": "Icons/ItemsGenerated/Tool_Hoe_Copper.png",
+  "Icon": "Icons/ItemsGenerated/Tool_Hoe_Bronze.png",
   "Quality": "Common",
   "ItemLevel": 15,
   "Recipe": {

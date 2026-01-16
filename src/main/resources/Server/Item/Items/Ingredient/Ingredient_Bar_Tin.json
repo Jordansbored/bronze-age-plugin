@@ -3,7 +3,7 @@
     "Name": "server.Ingredient_Bar_Tin.name",
     "Description": "server.Ingredient_Bar_Tin.description"
   },
-  "Icon": "Icons/ItemsGenerated/Ingredient_Bar_Copper.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Bar_Tin.png",
   "Categories": [
     "Items"
   ],
@@ -24,7 +24,7 @@
     "TimeSeconds": 10
   },
   "Model": "Resources/Materials/Ingot.blockymodel",
-  "Texture": "Resources/Materials/Ingot_Textures/Copper.png",
+  "Texture": "Resources/Materials/Ingot_Textures/Tin.png",
   "PlayerAnimationsId": "Item",
   "IconProperties": {
     "Scale": 1,
