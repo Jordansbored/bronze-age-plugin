@@ -1,6 +1,6 @@
 # Bronze Age Plugin
 
-A Hytale plugin that adds tin ore, bronze alloy crafting, and bronze-tier tools.
+A Hytale plugin that adds tin ore, bronze alloy crafting, and bronze-tier tools with custom visual effects.
 
 ## Installation
 
@@ -14,11 +14,20 @@ A Hytale plugin that adds tin ore, bronze alloy crafting, and bronze-tier tools.
 
 ### Ore Generation
 - **Tin Ore** generates naturally in the world
-- Mine tin ore and smelt it in a furnace to get tin ingots
+- Navy blue metallic ore texture
+- Smelt in a furnace to create tin ingots
 
-### Bronze Alloy Crafting
-The **Alloy Furnace** combines copper and tin to create bronze:
+### Tin Ingots
+- Smelted from tin ore (10 seconds)
+- Used for bronze alloy crafting and tin arrows
+
+### Alloy Furnace
+The heavy industrial **Alloy Furnace** combines copper and tin to create bronze:
 - 2 Copper Ingots + 1 Tin Ingot → 1 Bronze Ingot (60 seconds)
+- Custom copper/bronze tinted textures
+- **Dramatic slag spark effect**: Hot orange sparks fly out and cool to black ash
+- Enhanced fire particles with brighter orange glow (1.5x intensity, 8 block range)
+- 3 fuel slots with 2x fuel consumption
 
 ### Bronze Tools
 All bronze tools are **Uncommon** quality (green) with 250 durability:
@@ -29,12 +38,12 @@ All bronze tools are **Uncommon** quality (green) with 250 durability:
 
 ### Tin Arrows
 - **Tin Arrow**: 8 sticks + 1 tin ingot → 8 arrows (7 damage)
+- Navy blue metallic arrow tips
 
-### Alloy Furnace Construction
-Build the Alloy Furnace using fired stone and iron:
-1. **Unfired Stone**: 2 coal + 4 rock → 4 unfired stone (workbench)
-2. **Fired Stone**: Smelt unfired stone in furnace → fired stone
-3. **Alloy Furnace**: 16 fired stone + 8 iron ingots → Alloy Furnace (workbench)
+### Construction Materials
+- **Unfired Stone**: 2 coal + 4 rock = 4 unfired stone (workbench)
+- **Fired Stone**: Smelt unfired stone in furnace (15 seconds)
+- Dark black textures for industrial look
 
 ## Crafting Chain
 
@@ -66,6 +75,21 @@ Coal + Stone → Unfired Stone → (Furnace) → Fired Stone → Alloy Furnace
 | Bronze Shovel | 1 Bronze + 4 Wood + 1 Fibre |
 | Bronze Hoe | 2 Bronze + 4 Wood + 1 Fibre |
 
+## Visual Effects
+
+### Alloy Furnace Effects
+- Custom copper/bronze tinted textures for block and icon
+- Multi-layered fire effects (3x fire layers + campfire particles)
+- **Slag spark system**: Molten orange sparks that cool to black ash
+- High-intensity orange glow (1.5x, 8 block range)
+- 300 spawn rate / 75 max concurrent particles for dramatic effect
+
+### Custom Textures
+- Tin items: Navy blue metallic finish
+- Bronze tools: Orange/copper metallic with preserved wood handles
+- Fired stone: Dark black industrial look
+- Alloy Furnace: Copper/bronze tinted furnace block
+
 ## Requirements
 
 - Hytale game client
@@ -74,7 +98,8 @@ Coal + Stone → Unfired Stone → (Furnace) → Fired Stone → Alloy Furnace
 ## Credits
 
 - Created by Jordansbored
-- Textures: Custom metallic textures for tin and bronze items
+- Custom metallic textures for tin and bronze items
+- Custom particle effects for Alloy Furnace
 
 ## Source
 
