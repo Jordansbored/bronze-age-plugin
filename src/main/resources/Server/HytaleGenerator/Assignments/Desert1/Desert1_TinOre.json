@@ -1,0 +1,155 @@
+{
+	"$NodeId":	"Weighted.Assignments-tin-plains",
+	"Type":	"Weighted",
+	"ExportAs":	"Desert1_TinOre",
+	"SkipChance":	0,
+	"Seed": "TinOre",
+	"WeightedAssignments":	[{
+			"$NodeId":	"Weight.Tin",
+			"Weight":	40,
+			"Assignments":	{
+				"$NodeId":	"Constant.TinOre",
+				"Type":	"Constant",
+				"Prop":	{
+					"$NodeId":	"Density.TinOre",
+					"Type":	"Density",
+					"Skip":	false,
+					"Pattern":	{
+						"$NodeId":	"Ceiling.TinPattern",
+						"Type":	"Ceiling",
+						"Skip":	false,
+						"Ceiling":	{
+							"$NodeId":	"BlockSet.TinCeiling",
+							"Type":	"BlockSet",
+							"Skip":	false,
+							"BlockSet":	{
+								"$NodeId":	"BlockSet.TinMask",
+								"Inclusive":	true,
+								"Materials":	[{
+										"$NodeId":	"Material.TinMarble",
+										"Solid":	"Rock_Sandstone"
+									}, {
+										"$NodeId":	"Material.TinStone",
+										"Solid":	"Rock_Sandstone_Red"
+									}]
+							}
+						},
+						"Origin":	{
+							"$NodeId":	"BlockType.EmptyOrigin",
+							"Type":	"BlockType",
+							"Skip":	false,
+							"Material":	{
+								"$NodeId":	"Material.Empty",
+								"Solid":	"Empty"
+							}
+						}
+					},
+					"Scanner":	{
+						"$NodeId":	"ColumnLinear.TinScanner",
+						"Type":	"ColumnLinear",
+						"Skip":	false,
+						"MaxY":	120,
+						"MinY":	40,
+						"RelativeToPosition":	false,
+						"BaseHeightName":	"Bedrock",
+						"TopDownOrder":	false,
+						"ResultCap":	1
+					},
+					"Material":	{
+						"$NodeId":	"Solidity.TinMaterial",
+						"Type":	"Solidity",
+						"Solid":	{
+							"$NodeId":	"Constant.TinOreBlock",
+							"Type":	"Constant",
+							"Material":	{
+								"$NodeId":	"Material.Ore_Tin_Stone",
+								"Solid":	"Ore_Tin_Stone"
+							}
+						}
+					},
+					"Density":	{
+						"$NodeId":	"Sum.TinDensity",
+						"Type":	"Sum",
+						"Skip":	false,
+						"Inputs":	[{
+								"$NodeId":	"Normalizer.TinNoise",
+								"Type":	"Normalizer",
+								"Skip":	false,
+								"FromMin":	-1,
+								"FromMax":	1,
+								"ToMin":	-0.25,
+								"ToMax":	0.25,
+								"Inputs":	[{
+										"$NodeId":	"SimplexNoise3D.TinNoise",
+										"Type":	"SimplexNoise3D",
+										"Skip":	false,
+										"Lacunarity":	2,
+										"Persistence":	0.5,
+										"Octaves":	2,
+										"ScaleXZ":	3,
+										"ScaleY":	3,
+										"Seed": "TinOre"
+									}]
+							}, {
+								"$NodeId":	"Normalizer.TinCluster",
+								"Type":	"Normalizer",
+								"Skip":	false,
+								"FromMin":	-1,
+								"FromMax":	1,
+								"ToMin":	-0.6,
+								"ToMax":	0.6,
+								"Inputs":	[{
+										"$NodeId":	"Anchor.TinAnchor",
+										"Type":	"Anchor",
+										"Skip":	false,
+										"Reversed":	false,
+										"Inputs":	[{
+												"$NodeId":	"Cube.TinCube",
+												"Type":	"Cube",
+												"Skip":	false,
+												"Curve":	{
+													"$NodeId":	"ManualCurve.TinCurve",
+													"Type":	"Manual",
+													"Points":	[{
+															"$NodeId":	"CurvePoint.TinIn",
+															"In":	0,
+															"Out":	1
+														}, {
+															"$NodeId":	"CurvePoint.TinOut",
+															"In":	4,
+															"Out":	-2
+														}]
+												}
+											}]
+									}]
+							}]
+					},
+					"PlacementMask":	{
+						"$NodeId":	"BlockMask.TinMask",
+						"DontPlace":	{
+							"$NodeId":	"BlockSet.TinDontPlace",
+							"Inclusive":	true,
+							"Materials":	[{
+									"$NodeId":	"Material.EmptySpace",
+									"Solid":	"Empty"
+								}]
+						},
+						"DontReplace":	{
+							"$NodeId":	"BlockSet.TinDontReplace",
+							"Inclusive":	true,
+							"Materials":	[{
+									"$NodeId":	"Material.NoReplace",
+									"Solid":	"Empty"
+								}]
+						}
+					},
+					"Range":	{
+						"$NodeId":	"Point3D.TinRange",
+						"X":	3,
+						"Y":	3,
+						"Z":	3
+					}
+				}
+			}
+		}]
+}

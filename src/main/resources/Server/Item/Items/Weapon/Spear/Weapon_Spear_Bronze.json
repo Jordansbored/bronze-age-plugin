@@ -1,0 +1,38 @@
+{
+  "TranslationProperties": {
+    "Name": "Bronze Spear",
+    "Description": "A bronze-tipped spear. Can be thrown for ranged attacks."
+  },
+  "Parent": "Weapon_Spear_Bronze",
+  "Icon": "Icons/ItemsGenerated/Weapon_Spear_Bronze.png",
+  "Quality": "Uncommon",
+  "ItemLevel": 30,
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 2
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Spear"
+        ],
+        "Id": "Weapon_Bench"
+      }
+    ]
+  },
+  "MaxDurability": 27,
+  "DurabilityLossOnHit": 0.56
+}

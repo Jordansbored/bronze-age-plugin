@@ -93,6 +93,7 @@ Coal + Stone → Unfired Stone → (Furnace) → Fired Stone → Alloy Furnace
 ## Requirements
 
 - Hytale game client
+- **Coal Ore Mod** (required for crafting Unfired Stone)
 - No other mods required
 
 ## Credits

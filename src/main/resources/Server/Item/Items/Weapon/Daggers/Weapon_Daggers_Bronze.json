@@ -1,0 +1,102 @@
+{
+  "TranslationProperties": {
+    "Name": "Bronze Daggers",
+    "Description": "A pair of bronze daggers. Fast attacks with low damage but high combo potential."
+  },
+  "Parent": "Template_Weapon_Daggers",
+  "Icon": "Icons/ItemsGenerated/Weapon_Daggers_Bronze.png",
+  "Quality": "Uncommon",
+  "ItemLevel": 30,
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 1
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Dagger"
+        ],
+        "Id": "Weapon_Bench"
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Swing_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 2
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 2
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    },
+    "Stab_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Stab_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 5
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    },
+    "Stab_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Stab_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 6
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    }
+  }
+}
