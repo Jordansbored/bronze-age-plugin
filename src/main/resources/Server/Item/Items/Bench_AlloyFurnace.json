@@ -49,8 +49,8 @@
       "Type": "Processing",
       "AllowNoInputProcessing": true,
       "Input": [
-        { "FilterValidIngredients": true },
-        { "FilterValidIngredients": true }
+        {},
+        {}
       ],
       "Fuel": [
         { "ResourceTypeId": "Fuel", "Icon": "Icons/Processing/FuelSlotIcon.png" },
