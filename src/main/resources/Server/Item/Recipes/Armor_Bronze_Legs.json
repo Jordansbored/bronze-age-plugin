@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Bronze",
+      "Quantity": 6
+    },
+    {
+      "ItemId": "Ingredient_Leather_Light",
+      "Quantity": 3
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Armor_Bronze_Legs",
+    "Quantity": 1
+  },
+  "OutputQuantity": 1,
+  "BenchRequirement": [
+    {
+      "Id": "Armor_Bench",
+      "Type": "Crafting",
+      "Categories": [
+        "Armor_Legs"
+      ]
+    }
+  ],
+  "TimeSeconds": 3,
+  "KnowledgeRequired": false,
+  "RequiredMemoriesLevel": 1
+}

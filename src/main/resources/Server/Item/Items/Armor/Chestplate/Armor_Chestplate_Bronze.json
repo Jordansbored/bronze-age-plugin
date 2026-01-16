@@ -1,0 +1,31 @@
+{
+  "TranslationProperties": {
+    "Name": "Bronze Chestplate"
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Chestplate_Bronze.png",
+  "Quality": "Uncommon",
+  "ItemLevel": 15,
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Chest"
+        ]
+      }
+    ]
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0.5
+  },
+  "MaxDurability": 300
+}

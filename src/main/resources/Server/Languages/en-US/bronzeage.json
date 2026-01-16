@@ -11,5 +11,13 @@
   "server.Tool_Pickaxe_Bronze.name": "Bronze Pickaxe",
   "server.Tool_Axe_Bronze.name": "Bronze Hatchet",
   "server.Tool_Shovel_Bronze.name": "Bronze Shovel",
-  "server.Tool_Hoe_Bronze.name": "Bronze Hoe"
+  "server.Tool_Hoe_Bronze.name": "Bronze Hoe",
+  "server.Armor_Helmet_Bronze.name": "Bronze Helmet",
+  "server.Armor_Helmet_Bronze.description": "A sturdy bronze helmet providing head protection.",
+  "server.Armor_Chestplate_Bronze.name": "Bronze Chestplate",
+  "server.Armor_Chestplate_Bronze.description": "A reinforced bronze chestplate for torso protection.",
+  "server.Armor_Leggings_Bronze.name": "Bronze Leggings",
+  "server.Armor_Leggings_Bronze.description": "Bronze leg armor for comprehensive protection.",
+  "server.Armor_Boots_Bronze.name": "Bronze Boots",
+  "server.Armor_Boots_Bronze.description": "Durable bronze boots for foot protection."
 }

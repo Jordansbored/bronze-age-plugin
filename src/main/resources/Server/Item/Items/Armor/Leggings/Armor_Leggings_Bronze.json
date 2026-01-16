@@ -1,0 +1,31 @@
+{
+  "TranslationProperties": {
+    "Name": "Bronze Leggings"
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Leggings_Bronze.png",
+  "Quality": "Uncommon",
+  "ItemLevel": 15,
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 7
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Legs"
+        ]
+      }
+    ]
+  },
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0.4
+  },
+  "MaxDurability": 275
+}

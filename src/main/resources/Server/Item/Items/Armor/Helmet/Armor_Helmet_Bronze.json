@@ -1,0 +1,31 @@
+{
+  "TranslationProperties": {
+    "Name": "Bronze Helmet"
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Helmet_Bronze.png",
+  "Quality": "Uncommon",
+  "ItemLevel": 15,
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Head"
+        ]
+      }
+    ]
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0.3
+  },
+  "MaxDurability": 250
+}
