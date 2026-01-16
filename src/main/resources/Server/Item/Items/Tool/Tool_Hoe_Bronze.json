@@ -4,7 +4,7 @@
   },
   "Parent": "Tool_Hoe_Copper",
   "Icon": "Icons/ItemsGenerated/Tool_Hoe_Bronze.png",
-  "Quality": "Common",
+  "Quality": "Uncommon",
   "ItemLevel": 15,
   "Recipe": {
     "TimeSeconds": 3,

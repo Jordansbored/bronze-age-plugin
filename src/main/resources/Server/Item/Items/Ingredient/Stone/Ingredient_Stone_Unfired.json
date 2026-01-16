@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "Unfired Stone",
+    "Description": "A mixture of coal and stone. Heat it in a furnace to create fired stone."
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Stone_Unfired.png",
+  "Categories": [
+    "Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ore_Coal",
+        "Quantity": 2
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ],
+    "OutputQuantity": 4,
+    "TimeSeconds": 3
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.57323,
+    "Translation": [
+      -3.6,
+      -16.200001
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Stone"
+    ]
+  },
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true
+}

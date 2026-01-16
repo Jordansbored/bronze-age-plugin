@@ -4,7 +4,7 @@
   },
   "Parent": "Tool_Hatchet_Copper",
   "Icon": "Icons/ItemsGenerated/Tool_Hatchet_Bronze.png",
-  "Quality": "Common",
+  "Quality": "Uncommon",
   "ItemLevel": 15,
   "Recipe": {
     "TimeSeconds": 3,

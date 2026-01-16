@@ -1,0 +1,50 @@
+{
+  "TranslationProperties": {
+    "Name": "Fired Stone",
+    "Description": "Heat-hardened stone. Used to construct the Alloy Furnace."
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Stone_Fired.png",
+  "Categories": [
+    "Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Stone_Unfired",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 15
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.57323,
+    "Translation": [
+      -3.6,
+      -16.200001
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Stone"
+    ]
+  },
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true
+}
