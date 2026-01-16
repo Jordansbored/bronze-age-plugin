@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.Tool_Shovel_Bronze.name"
+    "Name": "Bronze Shovel"
   },
   "Parent": "Tool_Shovel_Copper",
   "Icon": "Icons/ItemsGenerated/Tool_Shovel_Bronze.png",

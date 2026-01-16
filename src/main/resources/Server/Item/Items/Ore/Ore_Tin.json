@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.Ore_Tin.name",
-    "Description": "server.Ore_Tin.description"
+    "Name": "Raw Tin",
+    "Description": "A silvery raw metal. Smelt it to create tin ingots."
   },
   "Icon": "Icons/ItemsGenerated/Ore_Tin.png",
   "Categories": [

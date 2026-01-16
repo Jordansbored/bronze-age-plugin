@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.Ingredient_Bar_Tin.name",
-    "Description": "server.Ingredient_Bar_Tin.description"
+    "Name": "Tin Ingot",
+    "Description": "A refined tin bar. Combine with copper in an Alloy Furnace to create bronze."
   },
   "Icon": "Icons/ItemsGenerated/Ingredient_Bar_Tin.png",
   "Categories": [

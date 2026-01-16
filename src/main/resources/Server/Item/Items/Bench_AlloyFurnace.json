@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.Bench_AlloyFurnace.name",
-    "Description": "server.Bench_AlloyFurnace.description"
+    "Name": "Alloy Furnace",
+    "Description": "A heavy industrial furnace for forging metal alloys."
   },
   "Icon": "Icons/ItemsGenerated/Bench_Furnace.png",
   "Categories": [

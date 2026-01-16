@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.Tool_Axe_Bronze.name"
+    "Name": "Bronze Hatchet"
   },
   "Parent": "Tool_Hatchet_Copper",
   "Icon": "Icons/ItemsGenerated/Tool_Hatchet_Bronze.png",

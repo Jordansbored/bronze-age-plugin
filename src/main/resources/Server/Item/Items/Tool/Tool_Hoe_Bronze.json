@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.Tool_Hoe_Bronze.name"
+    "Name": "Bronze Hoe"
   },
   "Parent": "Tool_Hoe_Copper",
   "Icon": "Icons/ItemsGenerated/Tool_Hoe_Bronze.png",

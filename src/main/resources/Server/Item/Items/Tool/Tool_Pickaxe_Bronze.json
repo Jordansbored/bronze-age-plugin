@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.Tool_Pickaxe_Bronze.name"
+    "Name": "Bronze Pickaxe"
   },
   "Parent": "Tool_Pickaxe_Copper",
   "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Bronze.png",
