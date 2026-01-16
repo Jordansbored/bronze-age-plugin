@@ -123,6 +123,12 @@
               "TargetNodeName": "Fire",
               "Scale": 0.3,
               "PositionOffset": { "X": 0, "Y": 0.1, "Z": 0.5 }
+            },
+            {
+              "SystemId": "AlloyFurnace_Sparks",
+              "TargetNodeName": "Fire",
+              "Scale": 2.0,
+              "PositionOffset": { "X": 0, "Y": 0.1, "Z": 0.35 }
             }
           ],
           "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
