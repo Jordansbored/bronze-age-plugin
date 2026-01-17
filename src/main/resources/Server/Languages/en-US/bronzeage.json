@@ -19,5 +19,9 @@
   "server.Armor_Leggings_Bronze.name": "Bronze Leggings",
   "server.Armor_Leggings_Bronze.description": "Bronze leg armor for comprehensive protection.",
   "server.Armor_Boots_Bronze.name": "Bronze Boots",
-  "server.Armor_Boots_Bronze.description": "Durable bronze boots for foot protection."
+  "server.Armor_Boots_Bronze.description": "Durable bronze boots for foot protection.",
+  "server.Weapon_Arrow_Tin.name": "Tin Arrow",
+  "server.Weapon_Arrow_Tin.description": "A lightweight arrow with a tin tip. Faster than iron but slightly less damage.",
+  "server.Weapon_Shortbow_Tin.name": "Tin Shortbow",
+  "server.Weapon_Shortbow_Tin.description": "Favored by Admiral Generalwarship's fleet, this tin-reinforced bow was designed after the infamous 'arrow that wouldn't fly' incident. Now standard issue for naval archers, its salt-resistant fittings ensure arrows actually leave the string."
 }
