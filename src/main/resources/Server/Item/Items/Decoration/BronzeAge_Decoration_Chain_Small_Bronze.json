@@ -1,0 +1,46 @@
+{
+  "TranslationProperties": {
+    "Name": "Small Bronze Chain",
+    "Description": "A small climbable bronze chain."
+  },
+  "Icon": "Icons/ItemsGenerated/Deco_Bronze_Chain_Small.png",
+  "Categories": ["Blocks.Deco"],
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_Bar_Bronze", "Quantity": 1 }
+    ],
+    "OutputQuantity": 2,
+    "BenchRequirement": [
+      { "Type": "StructuralCrafting", "Id": "Builders" }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Tinkering/Iron_Chain_Small.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Blocks/Tinkering/Bronze_Chain_Small_Texture.png", "Weight": 1 }
+    ],
+    "HitboxType": "Beam_Thin",
+    "VariantRotation": "Pipe",
+    "MovementSettings": {
+      "IsClimbable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#B87333",
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": ["Deco"],
+    "Family": ["Bronze"]
+  },
+  "Quality": "Uncommon",
+  "ItemSoundSetId": "ISS_Items_Metal"
+}

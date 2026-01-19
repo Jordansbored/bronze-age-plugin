@@ -45,6 +45,17 @@ All bronze tools are **Uncommon** quality (green) with 250 durability:
 - **Fired Stone**: Smelt unfired stone in furnace (15 seconds)
 - Dark black textures for industrial look
 
+### Bronze Decorations
+Bronze decoration blocks crafted at the Builders Workbench:
+- **Bronze Bars**: 1 Bronze Ingot → 2 bars
+- **Bronze Bars Corner**: Corner piece variant
+- **Bronze Bars Platform**: Platform piece variant
+- **Bronze Chains**: Decorative hanging chains
+- **Vertical Bronze Chains**: Vertical chain variant
+- **Small Bronze Chain**: Climbable chain (2 per ingot)
+- **Stack of Bronze Ingots**: Decorative ingot pile
+- All use copper-orange metallic bronze color (#B87333)
+
 ## Crafting Chain
 
 ```
@@ -74,6 +85,17 @@ Coal + Stone → Unfired Stone → (Furnace) → Fired Stone → Alloy Furnace
 | Bronze Hatchet | 3 Bronze + 6 Wood + 3 Fibre |
 | Bronze Shovel | 1 Bronze + 4 Wood + 1 Fibre |
 | Bronze Hoe | 2 Bronze + 4 Wood + 1 Fibre |
+
+### Builders Workbench
+| Output | Inputs |
+|--------|--------|
+| Bronze Bars | 1 Bronze Ingot (x2 output) |
+| Bronze Bars Corner | Parent: Bronze Bars |
+| Bronze Bars Platform | 1 Bronze Ingot (x2 output) |
+| Bronze Chains | 1 Bronze Ingot |
+| Vertical Bronze Chains | Parent: Bronze Chains |
+| Small Bronze Chain | 1 Bronze Ingot (x2 output, climbable) |
+| Stack of Bronze Ingots | 1 Bronze Ingot |
 
 ## Visual Effects
 

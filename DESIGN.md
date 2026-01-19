@@ -41,6 +41,21 @@ A heavy industrial furnace that consumes massive fuel to forge alloys.
 
 Copper ore and copper ingots are already in the base game.
 
+### Bronze Decorations
+Bronze decoration blocks crafted at the Builders Workbench (StructuralCrafting):
+- **Bronze Bars**: Windows, barriers (2 per ingot)
+- **Bronze Bars Corner**: Corner piece variant
+- **Bronze Bars Platform**: Platform/shelf variant (2 per ingot)
+- **Bronze Chains**: Decorative hanging chains
+- **Vertical Bronze Chains**: Vertical chain variant
+- **Small Bronze Chain**: Climbable, used for climbing (2 per ingot)
+- **Stack of Bronze Ingots**: Decorative ingot pile
+
+All decoration blocks use:
+- Iron bar/chain/blockymodel files (shared models)
+- Bronze-tinted textures (orange/copper #B87333)
+- Metal particle effects and sounds
+
 ## Progression
 
 ```
@@ -93,9 +108,12 @@ bronze-age-plugin/
 │   │   ├── Item/Items/
 │   │   │   ├── Ore/                # Tin ore block
 │   │   │   ├── Ingot/              # Tin, Bronze ingots
-│   │   │   └── Tool/               # Bronze tools
+│   │   │   ├── Tool/               # Bronze tools
+│   │   │   └── Decoration/         # Bronze bars, chains
 │   │   └── Languages/en-US/
-│   └── Common/Icons/               # Item/block textures
+│   ├── Common/
+│   │   ├── Icons/                  # Item/block icons
+│   │   └── Blocks/Tinkering/       # Bronze textures
 ├── build.gradle
 └── gradle.properties
 ```

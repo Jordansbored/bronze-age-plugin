@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "Bronze Bars Platform",
+    "Description": "A platform made of bronze bars."
+  },
+  "Icon": "Icons/ItemsGenerated/Deco_Bronze_Bars_Platforms.png",
+  "Categories": ["Furniture.Shelves"],
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_Bar_Bronze", "Quantity": 1 }
+    ],
+    "OutputQuantity": 2,
+    "BenchRequirement": [
+      { "Type": "StructuralCrafting", "Id": "Builders", "Categories": ["Platform"] }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Tinkering/Iron_Bars_Platform.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Blocks/Tinkering/Bronze_Bars_Platform_Texture.png", "Weight": 1 }
+    ],
+    "HitboxType": "Platform",
+    "VariantRotation": "Wall",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#B87333",
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": ["Deco"],
+    "Family": ["Bronze"]
+  },
+  "Quality": "Uncommon",
+  "ItemSoundSetId": "ISS_Items_Metal"
+}

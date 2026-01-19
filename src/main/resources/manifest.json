@@ -1,15 +1,15 @@
 {
     "Group": "Jordansbored",
     "Name": "BronzeAge",
-    "Version": "1.4.0",
+    "Version": "1.6.0",
     "Description": "Adds tin ore, bronze alloy crafting, bronze-tier tools, armor, and weapons. Mine tin, smelt it with copper in the heavy-duty Alloy Furnace, and forge powerful bronze equipment!",
     "Authors": [
         {
-            "Name": "Jordansbored",
-            "Url": "https://www.curseforge.com/members/jordansbored/projects"
+            "Name": "Meowerz",
+            "Url": "https://www.curseforge.com/members/meowerz/projects"
         }
     ],
-    "Website": "https://www.curseforge.com/members/jordansbored/projects",
+    "Website": "https://www.curseforge.com/members/meowerz/projects",
     "ServerVersion": "*",
     "Dependencies": {
         

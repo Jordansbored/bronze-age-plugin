@@ -1,0 +1,37 @@
+{
+  "TranslationProperties": {
+    "Name": "Vertical Bronze Chains",
+    "Description": "Vertical bronze chains for hanging objects."
+  },
+  "Icon": "Icons/ItemsGenerated/Deco_Bronze_Chains_Vertical.png",
+  "Categories": ["Blocks.Deco"],
+  "Parent": "BronzeAge_Decoration_Chains_Bronze",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Tinkering/Iron_Chains_Vertical.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Blocks/Tinkering/Bronze_Chains_Texture.png", "Weight": 1 }
+    ],
+    "HitboxType": "Chain_Vertical",
+    "VariantRotation": "Pipe",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "BronzeAge_Decoration_Chains_Bronze"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#B87333",
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": ["Deco"],
+    "Family": ["Bronze"]
+  },
+  "Quality": "Uncommon",
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Variant": true
+}

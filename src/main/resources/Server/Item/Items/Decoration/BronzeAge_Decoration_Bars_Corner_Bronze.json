@@ -1,0 +1,38 @@
+{
+  "TranslationProperties": {
+    "Name": "Bronze Bars Corner",
+    "Description": "Corner piece for bronze bars."
+  },
+  "Icon": "Icons/ItemsGenerated/Deco_Bronze_Bars_Corner.png",
+  "Categories": ["Blocks.Deco"],
+  "Parent": "BronzeAge_Decoration_Bars_Bronze",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Tinkering/Iron_Bars_Corner.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Blocks/Tinkering/Bronze_Bars_Texture.png", "Weight": 1 }
+    ],
+    "HitboxType": "Fence_Corner_Thin",
+    "VariantRotation": "NESW",
+    "FlipType": "Orthogonal",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "BronzeAge_Decoration_Bars_Bronze"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#B87333",
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": ["Deco"],
+    "Family": ["Bronze"]
+  },
+  "Quality": "Uncommon",
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Variant": true
+}

@@ -1,0 +1,42 @@
+{
+  "TranslationProperties": {
+    "Name": "Stack of Bronze Ingots",
+    "Description": "A decorative pile of bronze ingots."
+  },
+  "Icon": "Icons/ItemsGenerated/Deco_Bronze_Stack.png",
+  "Categories": ["Blocks.Deco"],
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_Bar_Bronze", "Quantity": 1 }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      { "Type": "StructuralCrafting", "Id": "Builders" }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Tinkering/Iron_Ingot_Stack.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Blocks/Tinkering/Bronze_Ingot_Stack_Texture.png", "Weight": 1 }
+    ],
+    "VariantRotation": "Wall",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#B87333",
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": ["Deco"],
+    "Family": ["Bronze"]
+  },
+  "Quality": "Uncommon",
+  "ItemSoundSetId": "ISS_Items_Metal"
+}
