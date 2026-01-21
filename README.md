@@ -2,6 +2,20 @@
 
 A Hytale plugin that adds tin ore, bronze alloy crafting, and bronze-tier tools with custom visual effects.
 
+## What's New - Bronze Age 1.6
+
+**Bronze Decorations Update**
+
+Bronze decoration blocks crafted at the Builders Workbench:
+- **Bronze Bars**: 1 Bronze Ingot → 2 bars
+- **Bronze Bars Corner**: Corner piece variant
+- **Bronze Bars Platform**: Platform piece variant
+- **Bronze Chains**: Decorative hanging chains
+- **Vertical Bronze Chains**: Vertical chain variant
+- **Small Bronze Chain**: Climbable chain (2 per ingot)
+- **Stack of Bronze Ingots**: Decorative ingot pile
+- All use copper-orange metallic bronze color (#B87333)
+
 ## Installation
 
 1. Download `BronzeAge-1.0.0.jar` from the [releases page](https://github.com/Jordansbored/bronze-age-plugin/releases)
