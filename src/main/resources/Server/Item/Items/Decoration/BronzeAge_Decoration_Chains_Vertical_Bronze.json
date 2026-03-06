@@ -10,11 +10,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Semitransparent",
-    "CustomModel": "Blocks/Tinkering/Iron_Chains_Vertical.blockymodel",
+    "CustomModel": "Blocks/Tinkering/Iron_Chains_Large_Vertical.blockymodel",
     "CustomModelTexture": [
       { "Texture": "Blocks/Tinkering/Bronze_Chains_Texture.png", "Weight": 1 }
     ],
-    "HitboxType": "Chain_Vertical",
+    "HitboxType": "Chain",
     "VariantRotation": "Pipe",
     "Gathering": {
       "Breaking": {

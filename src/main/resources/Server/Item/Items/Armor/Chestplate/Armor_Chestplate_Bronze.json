@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "Bronze Chestplate"
   },
-  "Icon": "Icons/ItemsGenerated/Armor_Chestplate_Bronze.png",
+  "Icon": "Icons/ItemsGenerated/Armor_Bronze_Chest.png",
   "Quality": "Uncommon",
   "ItemLevel": 15,
   "Recipe": {

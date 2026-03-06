@@ -10,7 +10,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ore_Coal",
+        "ResourceTypeId": "Fuel",
         "Quantity": 2
       },
       {
